@@ -1,0 +1,58 @@
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #4a154b;
+}
+
+.connect-btn {
+  background-color: #4a154b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.composer {
+  margin-top: 20px;
+  text-align: left;
+}
+
+select, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.btn-group button {
+  background-color: #4a154b;
+  color: white;
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.scheduled {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.scheduled li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.scheduled button {
+  margin-left: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+/* fonts imported per-file as you requested */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;600&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 24px;
+  /* gradient background like your screenshot */
+  background:
+    radial-gradient(circle at center, rgba(250,250,252,0.75) 0%, rgba(240,235,245,0.55) 10%, rgba(240,235,245,0.25) 18%, rgba(255,255,255,0) 25%),
+    linear-gradient(90deg, #0f0b14 0%, #3b3340 15%, #9f86b7 45%, #b66bf0 70%, #a96ef4 100%);
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 56px;
+  color: #6b2ae6;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+  margin-bottom: 24px;
+}
+
+/* purple pill */
+.connect-btn {
+  margin-top: 16px;
+  padding: 14px 28px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #8e3df0, #7a21d9);
+  color: white;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.33);
+  cursor: pointer;
+}
+
+/* small responsive tweak */
+@media (max-width: 520px) {
+  .title { font-size: 42px; }
+}
